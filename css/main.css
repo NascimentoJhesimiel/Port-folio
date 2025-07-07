@@ -1,0 +1,16 @@
+/* Main CSS File - Imports all modular CSS files */
+
+/* Base styles and variables */
+@import url("base.css");
+
+/* Component styles */
+@import url("navbar.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("skills.css");
+@import url("projects.css");
+@import url("contact.css");
+@import url("footer.css");
+
+/* Responsive styles */
+@import url("responsive.css");

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.jpg" type="image/x-icon" />
+    <title>Jhesimiel Nascimento</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text"
+            >Dev<span class="highlight">Nascimento</span></span
+          >
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <button class="nav-close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <a href="#home" class="nav-link">Início</a>
+          <a href="#about" class="nav-link">Sobre</a>
+          <a href="#skills" class="nav-link">Habilidades</a>
+          <a href="#projects" class="nav-link">Projetos</a>
+          <a href="#contact" class="nav-link">Contato</a>
+        </div>
+        <div class="nav-actions">
+          <div class="theme-switch" id="theme-switch">
+            <div class="theme-switch-track">
+              <div class="theme-switch-thumb">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Overlay para menu mobile -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1
+              class="hero-title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Olá, eu sou <span class="highlight">Jhesimiel</span>
+            </h1>
+            <h2
+              class="hero-subtitle"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              Desenvolvedor Full Stack
+            </h2>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+              <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+              <a href="#contact" class="btn btn-secondary">Contato</a>
+            </div>
+          </div>
+          <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+            <div class="image-container">
+              <img
+                src="./assets/profile2.jpg"
+                alt="Jhesimiel Nascimento"
+                class="profile-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-down" data-aos-delay="800">
+          <span>Role para baixo</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="about"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">
+            Sobre Mim
+          </h2>
+          <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">
+            Conheça um pouco da minha jornada
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right" data-aos-delay="300">
+            <p>
+              Desenvolvedor Full Stack, atuando com as tecnologias Java e
+              Angular, com conhecimento em banco de dados SQL e NoSQL, Git e
+              Cloud Azure, cursando Análise e Desenvolvimento de Sistemas na
+              Uninassau .
+            </p>
+            <p>
+              Sempre busco estar atualizado com as últimas tendências e melhores
+              práticas do desenvolvimento, apaixonado por programação, adoro
+              compartilhar conhecimento e aprender novas tecnologias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="skills"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">
+            Habilidades
+          </h2>
+          <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">
+            Tecnologias que domino
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div
+            class="skill-category"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <h3>Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="475">
+                <i class="fab fa-sass"></i>
+                <span>Sass</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                <i class="fab fa-js-square"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="525">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="575">
+                <i class="fab fa-angular"></i>
+                <span>Angular</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="625">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="675">
+                <i class="fas fa-wind"></i>
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="350">
+            <h3>Backend</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="725">
+                <i class="fas fa-code"></i>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="750">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="800">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="850">
+                <i class="fas fa-leaf"></i>
+                <span>Spring</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="900">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="925">
+                <i class="fas fa-database"></i>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="950">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="975">
+                <i class="fas fa-cloud"></i>
+                <span>AWS</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category" data-aos="fade-left" data-aos-delay="400">
+            <h3>Ferramentas</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1025">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1075">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1125">
+                <i class="fab fa-figma"></i>
+                <span>Figma</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1175">
+                <i class="fab fa-docker"></i>
+                <span>Docker</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1225">
+                <i class="fas fa-tools"></i>
+                <span>Webpack</span>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="1275">
+                <i class="fas fa-bolt"></i>
+                <span>Vite</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="projects"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">
+            Projetos
+          </h2>
+          <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">
+            Alguns dos meus trabalhos recentes
+          </p>
+        </div>
+
+        <!-- Project Filter Tabs -->
+        <div class="project-filters" data-aos="fade-up" data-aos-delay="300">
+          <button class="filter-btn active" data-filter="all">
+            Todos <span class="project-count">(3)</span>
+          </button>
+          <button class="filter-btn" data-filter="frontend">
+            Front-end <span class="project-count">(2)</span>
+          </button>
+          <button class="filter-btn" data-filter="backend">
+            Back-end <span class="project-count">(1)</span>
+          </button>
+          <button class="filter-btn" data-filter="fullstack">
+            Full Stack <span class="project-count">(0)</span>
+          </button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Frontend Projects -->
+          <div
+            class="project-card"
+            data-category="frontend"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-eye"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Frontend</div>
+              <h3 class="project-title">Portfolio</h3>
+              <p class="project-description">
+                Site portfolio com galeria interativa e animações personalizadas
+                em CSS e JavaScript puro.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Projects -->
+          <div
+            class="project-card"
+            data-category="backend"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/NascimentoJhesimiel/blackjack"
+                    class="project-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Backend</div>
+              <h3 class="project-title">Blackjack Game</h3>
+              <p class="project-description">
+                Aplicação CLI interativa que simula uma partida de blackjack
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">TypeScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend Projects -->
+          <div
+            class="project-card"
+            data-category="frontend"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div
+              class="project-image"
+              style="
+                background-image: url('./assets/bikcraft.png');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://nascimentojhesimiel.github.io/BikCraft/"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fas fa-eye"></i
+                  ></a>
+                  <a
+                    href="https://github.com/NascimentoJhesimiel/BikCraft"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Frontend</div>
+              <h3 class="project-title">BikCraft</h3>
+              <p class="project-description">
+                E-commerce de bicicletas elétricas
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Html</span>
+                <span class="tech-tag">Css</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">
+            Vamos Trabalhar Juntos?
+          </h2>
+          <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">
+            Entre em contato para discutir seu próximo projeto
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info" data-aos="fade-right" data-aos-delay="300">
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>jhesimieljorgedev@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="500">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Telefone</h3>
+                <p>+55 (81) 99777-5661</p>
+              </div>
+            </div>
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="600">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Localização</h3>
+                <p>Recife, PE - Brasil</p>
+              </div>
+            </div>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="700">
+              <a
+                href="https://www.linkedin.com/in/jhesimiel-nascimento/"
+                class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/NascimentoJhesimiel"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jhesimiel_nascimento/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://twitter.com/NascimentoJhesimiel"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            id="contact-form"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Seu Nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Seu Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Assunto"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Sua Mensagem"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up" data-aos-duration="800">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Jhesimiel Nascimento. Todos os direitos reservados.</p>
+          <p>Desenvolvido com <i class="fas fa-heart"></i> e muito café</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- DOM Scripts -->
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
