@@ -37,7 +37,6 @@
 
 .hero-container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -55,12 +54,12 @@
   justify-items: center;
   min-height: 70vh;
   width: 100%;
-  max-width: 1200px;
 }
 
 .hero-text {
   text-align: left;
   justify-self: start;
+  padding-left: 1.4rem;
 }
 
 .hero-title {

@@ -289,6 +289,11 @@
     margin-bottom: 0.8rem;
   }
 
+  /* Oculta o título do header (logo) no mobile */
+  .nav-logo .logo-text {
+    display: none;
+  }
+
   .hero-subtitle {
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -376,6 +381,9 @@
     height: 200px;
   }
 
+   .nav-logo {
+    display: none;
+  }
   /* Ajuste para telas muito pequenas */
   .nav-menu {
     padding: 5rem 1rem 1rem;
@@ -390,6 +398,9 @@
 }
 
 @media (max-height: 500px) {
+  .nav-logo {
+    display: none;
+  }
   .hero {
     padding: 60px 0 20px;
     min-height: 100vh;
