@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/logo.jpg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/Lougo (1).ico"
+      type="image/x-icon"
+    />
     <title>Jhesimiel Nascimento</title>
-    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -14,11 +19,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <!-- AOS  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Navbar -->
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
@@ -54,10 +57,7 @@
       </div>
     </nav>
 
-    <!-- Overlay para menu mobile -->
     <div class="nav-overlay" id="nav-overlay"></div>
-
-    <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="hero-container">
         <div class="hero-content">
@@ -84,7 +84,7 @@
           <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
             <div class="image-container">
               <img
-                src="./assets/profile2.jpg"
+                src="./assets/profile.jpg"
                 alt="Jhesimiel Nascimento"
                 class="profile-image"
               />
@@ -98,7 +98,6 @@
       </div>
     </section>
 
-    <!-- About Section -->
     <section
       id="about"
       class="about"
@@ -110,9 +109,6 @@
           <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">
             Sobre Mim
           </h2>
-          <p class="section-subtitle" data-aos="fade-down" data-aos-delay="200">
-            Conheça um pouco da minha jornada
-          </p>
         </div>
         <div class="about-content">
           <div class="about-text" data-aos="fade-right" data-aos-delay="300">
@@ -120,7 +116,7 @@
               Desenvolvedor Full Stack, atuando com as tecnologias Java e
               Angular, com conhecimento em banco de dados SQL e NoSQL, Git e
               Cloud Azure, cursando Análise e Desenvolvimento de Sistemas na
-              Uninassau .
+              Uninassau.
             </p>
             <p>
               Sempre busco estar atualizado com as últimas tendências e melhores
@@ -132,7 +128,6 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
     <section
       id="skills"
       class="skills"
@@ -148,9 +143,21 @@
             Tecnologias que domino
           </p>
         </div>
+        <div class="skills-filters" data-aos="fade-up" data-aos-delay="250">
+          <button class="skills-filter-btn active" data-skill-filter="frontend">
+            Front-end
+          </button>
+          <button class="skills-filter-btn" data-skill-filter="backend">
+            Back-end
+          </button>
+          <button class="skills-filter-btn" data-skill-filter="devops">
+            DevOps
+          </button>
+        </div>
         <div class="skills-grid">
           <div
             class="skill-category"
+            data-category="frontend"
             data-aos="fade-right"
             data-aos-delay="300"
           >
@@ -190,7 +197,12 @@
               </div>
             </div>
           </div>
-          <div class="skill-category" data-aos="fade-up" data-aos-delay="350">
+          <div
+            class="skill-category"
+            data-category="backend"
+            data-aos="fade-up"
+            data-aos-delay="350"
+          >
             <h3>Backend</h3>
             <div class="skill-items">
               <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
@@ -231,8 +243,13 @@
               </div>
             </div>
           </div>
-          <div class="skill-category" data-aos="fade-left" data-aos-delay="400">
-            <h3>Ferramentas</h3>
+          <div
+            class="skill-category"
+            data-category="devops"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <h3>DevOps</h3>
             <div class="skill-items">
               <div class="skill-item" data-aos="zoom-in" data-aos-delay="1025">
                 <i class="fab fa-git-alt"></i>
@@ -264,7 +281,6 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
     <section
       id="projects"
       class="projects"
@@ -281,16 +297,15 @@
           </p>
         </div>
 
-        <!-- Project Filter Tabs -->
         <div class="project-filters" data-aos="fade-up" data-aos-delay="300">
           <button class="filter-btn active" data-filter="all">
-            Todos <span class="project-count">(3)</span>
+            Todos <span class="project-count">(5)</span>
           </button>
           <button class="filter-btn" data-filter="frontend">
             Front-end <span class="project-count">(2)</span>
           </button>
           <button class="filter-btn" data-filter="backend">
-            Back-end <span class="project-count">(1)</span>
+            Back-end <span class="project-count">(3)</span>
           </button>
           <button class="filter-btn" data-filter="fullstack">
             Full Stack <span class="project-count">(0)</span>
@@ -298,7 +313,6 @@
         </div>
 
         <div class="projects-grid">
-          <!-- Frontend Projects -->
           <div
             class="project-card"
             data-category="frontend"
@@ -332,7 +346,71 @@
             </div>
           </div>
 
-          <!-- Backend Projects -->
+          <div
+            class="project-card"
+            data-category="backend"
+            data-aos="fade-up"
+            data-aos-delay="650"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/NascimentoJhesimiel/InventoryManager"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Backend</div>
+              <h3 class="project-title">Inventory Management API</h3>
+              <p class="project-description">
+                API RESTful para gerenciamento de estoque.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            data-category="backend"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/NascimentoJhesimiel/node-auth-template"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Backend</div>
+              <h3 class="project-title">Node Auth Template</h3>
+              <p class="project-description">
+                Template de autenticação com Node.js, Express e JWT.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
           <div
             class="project-card"
             data-category="backend"
@@ -364,7 +442,6 @@
             </div>
           </div>
 
-          <!-- Frontend Projects -->
           <div
             class="project-card"
             data-category="frontend"
@@ -414,7 +491,6 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
     <section
       id="contact"
       class="contact"
@@ -457,8 +533,8 @@
               <a
                 href="https://www.linkedin.com/in/jhesimiel-nascimento/"
                 class="social-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 ><i class="fab fa-linkedin"></i
               ></a>
               <a
@@ -539,20 +615,15 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer" data-aos="fade-up" data-aos-duration="800">
       <div class="container">
         <div class="footer-content">
           <p>&copy; 2025 Jhesimiel Nascimento. Todos os direitos reservados.</p>
-          <p>Desenvolvido com <i class="fas fa-heart"></i> e muito café</p>
         </div>
       </div>
     </footer>
 
-    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- DOM Scripts -->
     <script src="js/theme.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/scroll.js"></script>

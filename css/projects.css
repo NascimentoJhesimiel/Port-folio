@@ -2,12 +2,14 @@
 .projects {
   padding: 100px 0;
   background: var(--bg-secondary);
+  text-align: center;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
+  justify-items: center;
 }
 
 .project-card {
@@ -17,6 +19,9 @@
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
   backdrop-filter: blur(10px);
+  text-align: left;
+  width: 100%;
+  max-width: 520px;
 }
 
 .project-card:hover {
@@ -74,6 +79,7 @@
 
 .project-content {
   padding: 2rem;
+  text-align: left;
 }
 
 .project-title {
@@ -103,6 +109,7 @@
   font-size: 0.7rem;
   border: 1px solid rgba(59, 130, 246, 0.3);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Light theme specific adjustments */

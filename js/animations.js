@@ -11,7 +11,7 @@ class AnimationManager {
     this.setupParallax();
     this.setupSkillHoverEffects();
     this.setupButtonRippleEffect();
-    this.setupCursorTrail();
+    // Cursor trail desativado
   }
 
   initAOS() {

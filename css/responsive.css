@@ -19,7 +19,7 @@
   }
 
   .scroll-indicator {
-    bottom: -30px;
+    bottom: 20px;
   }
 
   .image-container {
@@ -206,8 +206,8 @@
     height: 280px;
   }
 
-  .scroll-indicator{
-   bottom: -20px;
+  .scroll-indicator {
+    bottom: 16px;
   }
 
   .section-title {
@@ -265,7 +265,7 @@
 
   .scroll-indicator {
     position: absolute;
-    bottom: -70px;
+    bottom: 16px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
